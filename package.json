@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "build": "webpack --mode development",
-    "dev": "webpack-dev-server --mode development"
+    "dev": "webpack-dev-server --mode development",
+    "production": "webpack --mode production"
   },
   "dependencies": {
     "prop-types": "^15.7.2",

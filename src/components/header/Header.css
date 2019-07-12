@@ -1,0 +1,47 @@
+.header {
+  height: 60px;
+  background: #4a90e2;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.header div {
+  display: flex;
+  align-items: center;
+}
+
+.header strong.nameApp {
+  font-size: 25px;
+}
+
+.header img {
+  color: #fff;
+  width: 20px;
+  margin-left: 10px;
+}
+
+@media all and (max-width: 800px) {
+  .header strong.nameApp {
+    font-size: 20px;
+  }
+}
+
+@media all and (max-width: 400px) {
+  .header strong.nameApp {
+    font-size: 15px;
+  }
+
+  .header div.perfil {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header div.perfil strong.namePerfil {
+    margin-bottom: 1px;
+  }
+}
