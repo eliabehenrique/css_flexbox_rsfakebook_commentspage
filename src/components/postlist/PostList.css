@@ -1,3 +1,10 @@
-.post {
+a {
+  text-decoration: none;
+}
+
+.posts {
+  display: flex;
+  flex-direction: column;
+
   padding: 0 400px;
 }

@@ -18,8 +18,13 @@
   font-size: 25px;
 }
 
-.header img {
+.header > img {
   color: #fff;
+  width: 100px;
+  margin-left: 10px;
+}
+
+.perfil > img {
   width: 20px;
   margin-left: 10px;
 }

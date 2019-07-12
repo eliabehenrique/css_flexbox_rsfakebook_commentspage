@@ -7,4 +7,6 @@
 body {
   background: #f2f2f2;
   font-family: monospace;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
 }
